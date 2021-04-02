@@ -1,0 +1,553 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Ruluko', sans-serif;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+    color: #999;
+}
+a:hover{
+    color: #6D6D6D;
+}
+a:active{
+    color: black;
+}
+
+
+
+
+.displayflex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.flexone{
+    flex: 1;
+}
+.textcenter{
+    text-align: center;
+}
+.contentcenter{
+    justify-content: center;
+}
+.textalign{
+    text-align: center;
+}
+
+.main-cover{
+    background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(images/bg.jpg) no-repeat center; 
+    filter: drop-shadow(0px 4px 4px #000000);
+    background-size: cover;
+    min-height: 100vh; 
+}
+.nolink-logo{
+    color: white;
+    text-decoration: none;
+}
+
+/*NAV BAR*/
+.masternavcontainer{
+    margin: 1em; display: flex;
+    flex-direction: row; 
+    text-align: center; 
+    justify-content: center;
+}
+.navfont{
+    font-family: 'Ruluko', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: .7vh 1vh;
+    color: black;
+    text-decoration: none;
+}
+
+.navcontainer{
+    background-color: white;
+    padding: .5vh .7vh;
+    margin: .3vh;
+    border-radius: 5px;
+}
+
+.navcontainer:hover{
+    box-shadow: 1px 1px 15px -8px black
+}
+
+
+/*FOOTER*/
+.footerprivacy{
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 10px;
+}
+.footerheader{
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footerfont{
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: .5vh;
+}
+.footerfont:active{
+    color: white;
+}
+
+
+
+/*POST FORMAT*/
+.post-title{
+    font-family: 'Rowdies', cursive;
+    font-style: 24px;
+}
+.post-date{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+}
+
+.post-byauthor{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+.post-header{
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.post-p{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+}
+
+
+/*RIGHT CONTENT - ABOUT FORMAT*/
+.rc-authorbio{
+    font-family: 'Sen', sans-serif;
+    font-size: 14px;
+    margin: 2vh 0vh;
+}
+.sm-height{
+    width: 20px;
+}
+.rc-search{
+    height: 2vh;
+    width: 100%;
+    padding: .5vh;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+}
+.rc-searchfont{
+    font-family: 'Sen', sans-serif;
+    font-size: 14px;
+    color: #848484;
+}
+.rc-headers{
+    margin: 3vh 0vh 1vh 0vh;
+    font-family: 'Sen', sans-serif;
+    font-size: 14px;
+    color: #6D6D6D;
+    font-weight: bold;
+}
+
+/*SOCIAL MEDIA*/
+.sm-size{
+    width: 20px;
+}
+
+/*LINE*/
+.line{
+    height: 2px;
+    background-color: #A5A5A5;
+    margin-bottom: 2vh;
+}
+
+/*CATAGORIES BOX*/
+.cata-box{
+    height: 20vh;
+    width: 20vh;
+    margin: 0.5vh;
+    justify-content: center;
+    align-items: center;
+}
+.cata-text{
+    padding: 1vh 4vh;
+}
+.cata-transparent{
+    opacity: 0.9;
+    background-color: white;
+}
+
+/*INSTAGRAM*/
+.insta-box{
+    height: 12vh;
+    width: 12vh;
+    background-color: pink;
+    margin: 0.5vh;
+}
+.insta-box:hover{
+    opacity: 0.6;
+}
+.insta-box:active{
+    opacity: 1;
+}
+.insta-container{
+    justify-content: center;
+    align-items: center;
+}
+
+/*STAY TUNED*/
+.sub-container{
+    height: auto;
+    width: 100%;
+    border: 1px #848484 solid;
+}
+.sub-email{
+    padding: 1vh;
+    width: 80%;
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1vh;
+    border: solid;
+    border-color: #999;
+    border-width: 1px;
+}
+.sub-button{
+    padding: 1vh 0vh;
+    width: 85%;
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #9E9E9E;
+    font-family: 'Sen', sans-serif;
+    color: white;
+}
+.sub-button:hover{
+    background-color: rgb(46, 159, 197);
+}
+.sub-button:active{
+    background-color: rgb(10, 115, 150);
+}
+
+.sub-padding{
+    padding: 2.5vh 0vh;
+}
+
+/*POPULAR POST*/
+.pop-box{
+    height: 30vh;
+    width: 30vh;
+    margin: 0.5vh;
+    justify-content: center;
+    align-items: center;
+}
+.pop-text{
+    padding: 1vh 4vh;
+}
+.pop-transparent{
+    opacity: 0.7;
+    background-color: white;
+}
+
+
+
+/*PAGES - home boxes*/
+.temp-card:hover{
+    opacity: 0.6;
+}
+.temp-card:active{
+    opacity: 1;
+}
+.catapage-box{
+    height: 30vh;
+    width: 30vh;
+    margin: 0.5vh;
+    justify-content: center;
+    align-items: center;
+}
+.catapage-text{
+    padding: 1vh 4vh;
+}
+.catapage-transparent{
+    opacity: 0.9;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.catapage-header{
+    text-align: center; 
+    margin-top: 10vh;
+}
+
+.index-box{
+    height: 35vh;
+    width: 35vh;
+    margin: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card{
+    height: 35vh;
+    width: 35vh;
+    perspective: 1000px;
+    margin: 1vh;
+}
+.flip-card-inner{
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.flip-card-front{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card-back{
+    background-color: white;
+    transform: rotateY(180deg);
+}
+.card-header{
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-des{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+}
+.card-body{
+    margin: 3vh;
+}
+.index-nav{
+    margin-right: 1vh;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ruluko', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.index-nav:hover{
+    box-shadow: none;
+    color: rgb(139, 88, 58);
+    font-weight: bold;
+}
+.index-nav:active{
+    color: white;
+}
+.index-logo{
+    font-size: 9vh;
+    color: white;
+}
+.index-line{
+    height: 2px;
+    width: 50vh;
+    background-color: white;
+}
+.index-sub{
+    font-size: 5vh;
+    font-family: 'Ruluko', sans-serif;
+    color: white;
+}
+.sm-link:hover{
+    opacity: 0.6;
+}
+.sm-link:active{
+    opacity: 1;
+}
+
+
+
+
+/*PAGES - CATAGORIES*/
+.collap {
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Ruluko', sans-serif;
+  }
+  
+  .active, .collap:hover {
+    background-color: #555;
+  }
+  
+  .collap:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 5vh;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: white;
+
+  }
+  .date-font{
+    font-size: 16px;
+    font-family: 'Sen', sans-serif;
+  }
+
+
+
+/*PAGES - CONTACT*/
+.contact-logo{
+    font-size: 5.5vh;
+    color: white;
+}
+.contact-line{
+    height: 2px;
+    width: 33vh;
+    background-color: white;
+}
+.contact-sub{
+    font-size: 3.5vh;
+    font-family: 'Ruluko', sans-serif;
+    color: white;
+}
+.contact-main-cover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/contact-bg4.jpg) no-repeat center; 
+    background-size: cover;
+    min-height: 100vh; 
+}
+
+.contact-form-text{
+    font-family: 'calibri', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.contact-message-text{
+    font-family: 'calibri', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.contact-submit{
+    padding: 2vh 4vh;
+    border: 2px white solid;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4%;
+}
+
+.contact-form-line{
+    height: 2px;
+    background-color: white;
+    margin-top: 2vh;
+    padding: 0 !important;
+    width: 100%;
+}
+.contact-form-line-top{
+    height: 2px;
+    background-color: white;
+    margin: 1vh 0vh;
+    padding: 0 !important;
+    width: 100%;
+}
+
+
+
+#stuff > div {
+    display: flex;
+    padding: 5px;
+}
+#stuff > div > label {
+    width: 33.33%;
+}
+#stuff > div > div {
+    width: 66.66%;
+    
+}
+#stuff > div > div > input {
+    width: 50%;
+    
+}
+#stuff > div > div > input:first-child {
+    margin-right: 2.5px;
+    
+}
+#stuff > div > div > input:last-child {
+    margin-left: 2.5px;
+    
+}
+.half {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.full {
+width: 66.66%;
+}
+
+
+/*PAGES - Store*/
+.store-main-cover{
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/contact-bg2.jpg) no-repeat center; 
+    background-size: cover;
+    min-height: 100vh; 
+}

@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/e06d6ed078.js" crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form 
+    action="https://formspree.io/f/xoqyqqww"
+    method="POST"
+    >
+    <!--HEADER-->
+    <header class="contact-main-cover" style="padding: 0vh 2vh 0px 2vh;">
+
+      <div class="displayflex column" style="height: 100vh;">
+
+        <!--nav header-->
+        <div class="flexone">
+          <div class="displayflex row" style="justify-content: space-evenly; padding-top: 1vh;">
+              <div class="flexone" style="color: white;">
+                <div class="displayflex">
+                <a href="index.html" class="index-nav">home</a>
+                <a href="about.html" class="index-nav">about</a>
+                <a href="catagories.html" class="index-nav">catagories</a>
+                <a href="contact.html" class="index-nav">contact</a>
+                <a href="store.html" class="index-nav">store</a>
+              </div>
+            </div>
+            <!--footer - header-->
+            <div class="flexone" style="padding-bottom: 1vh;">
+              <div class="displayflex column" style="align-items: center;">
+                <a href="index.html" class="nolink-logo">
+                  <h1 class="contact-logo">MELODITY</h1>
+                  <div class="contact-line"></div>
+                  <p class="contact-sub">DIY MUSICIAN BLOG</p>
+                </a>
+              </div>
+            </div>
+            <div class="flexone" style="text-align: end;">
+              <a href="contact.html" class="sm-link">
+                <img src="images/em_g.png" class="sm-size">
+              </a>
+              <a href="https://www.facebook.com/MelodityBlog" class="sm-link">
+                <img src="images/f_g.png" class="sm-size">
+              </a>
+              <a href="https://www.instagram.com/keylahopemusic" class="sm-link">
+                <img src="images/in_g.png" class="sm-size">
+              </a>
+              <a href="https://www.youtube.com/keylahopemusic" class="sm-link">
+                <img src="images/yt_g.png" class="sm-size">
+              </a>
+              <a href="rss.html" class="sm-link">
+                <img src="images/rss_g.png" class="sm-size">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--END NAV HEADER-->
+      
+        <!--BODY-->
+        
+        <div class="displayflex column" style="background-color: rgba(18, 138, 185, 0.541); width: 60%; height: min-content; align-self: center; margin: 3vh;">
+          
+          <div id="stuff" style="padding: 3vh;">
+
+            <div>
+              <p style="
+                font-family: 'calibri', sans-serif; 
+                font-size: 5vh;
+                color: white;
+                ">Contact form</p>
+            </div>
+            <div style="padding-bottom: 1vh;">
+              <p style="
+              font-family: 'calibri', sans-serif; 
+              font-size: 18px;
+              color: white;
+              ">Please fill in the following.</p>
+            </div>
+            <div class="contact-form-line-top"></div>
+
+          
+            <div>
+              <label for="name" class="contact-form-text">Your Name:</label>
+                <div class="half">
+                <input style="height: 3.5vh; padding-left: 1vh;" type="text" id="name" name="fname" placeholder="First Name" required>
+                <input style="height: 3.5vh; padding-left: 1vh;" type="text" id="name" name="lname" placeholder="Last Name" required>
+                </div>
+            </div>
+            <div>
+              <label style="margin-right: .7vh;"for="email" class="contact-form-text">Your Email:</label>
+              <input style="height: 3.5vh; padding-left: 1vh;" type="email" id="email" name="email" placeholder="e.g. John@email.com" class="full" required>
+            </div>
+            <div>
+              <label for="subject" class="contact-form-text">Message Subject:</label>
+              <select style="height: 3.5vh; padding-left: 1vh;" class="full" name="subject" id="subject" required>
+                <option value="feedback">Feedback</option>
+                <option value="question">Question</option>
+                <option value="business">Business Inquiry</option>
+                <option value="sponsor">Sponsor</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label style="margin-right: .7vh;" for="message" class="contact-form-text">Message:</label>
+              <textarea style="padding: 1vh 0vh 0vh 1vh; height: 20vh; resize: none;" class="full contact-message-text" id="message" name="message" placeholder="Your message..." row="10" cols="50" required></textarea>
+            </div>
+            <div>
+              <label for="verification" class="contact-form-text">Verification:</label>
+              <div>
+                <div class="g-recaptcha" data-sitekey="6LcQTJEaAAAAAAim3jue-obWrKAINJ-T4lkPrF6Y" data-callback="verifyCaptcha"></div>
+                <div id="g-recaptcha-error"></div>
+              </div>
+            </div>
+            <div class="contact-form-line"></div>
+              <div style="margin-top: 2vh;">
+                  <button class="contact-submit" type="submit" name="submit" value="Submit">Submit Form</button>
+              </div>
+            
+          </div>
+        </div>
+      
+
+
+
+      </div>
+    </header>
+  </form>
+  </body>
+</html>
+
+
+<script>
+  function submitUserForm() {
+      var response = grecaptcha.getResponse();
+      if(response.length == 0) {
+          document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+          return false;
+      }
+      return true;
+  }
+  function verifyCaptcha() {
+      document.getElementById('g-recaptcha-error').innerHTML = '';
+  }
+  </script>

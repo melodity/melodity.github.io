@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Melodity: DIY Musician Blog</title>
+  <link>https://www.melodity.com</link>
+  <description>Free DIY Musician tutorials</description>
+  <item>
+    <title>title</title>
+    <link>link.com</link>
+    <description>desp</description>
+  </item>
+
+</channel>
+
+</rss>
