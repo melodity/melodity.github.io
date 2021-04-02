@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/e06d6ed078.js" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
@@ -114,13 +113,7 @@
               <label style="margin-right: .7vh;" for="message" class="contact-form-text">Message:</label>
               <textarea style="padding: 1vh 0vh 0vh 1vh; height: 20vh; resize: none;" class="full contact-message-text" id="message" name="message" placeholder="Your message..." row="10" cols="50" required></textarea>
             </div>
-            <div>
-              <label for="verification" class="contact-form-text">Verification:</label>
-              <div>
-                <div class="g-recaptcha" data-sitekey="6LcQTJEaAAAAAAim3jue-obWrKAINJ-T4lkPrF6Y" data-callback="verifyCaptcha"></div>
-                <div id="g-recaptcha-error"></div>
-              </div>
-            </div>
+            
             <div class="contact-form-line"></div>
               <div style="margin-top: 2vh;">
                   <button class="contact-submit" type="submit" name="submit" value="Submit">Submit Form</button>
@@ -137,18 +130,3 @@
   </form>
   </body>
 </html>
-
-
-<script>
-  function submitUserForm() {
-      var response = grecaptcha.getResponse();
-      if(response.length == 0) {
-          document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-          return false;
-      }
-      return true;
-  }
-  function verifyCaptcha() {
-      document.getElementById('g-recaptcha-error').innerHTML = '';
-  }
-  </script>
