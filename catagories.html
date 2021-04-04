@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="style.css">
+    <title>Catagories - Melodity</title>
+    <meta name="description" content="Melodity provides a variety of topics on writing original songs, creating instrumentals in GarageBand, getting paid gigs, real-life stories, and other...">
   </head>
   <body>
     <!--HEADER-->
@@ -17,25 +19,26 @@
         <div class="flexone">
           <div class="displayflex contentcenter column">
             <div class="flexone" style="text-align: end;">
+              
               <a href="contact.html" class="sm-link">
-                <img src="images/em_g.png" class="sm-size">
+                <i class="fas fa-envelope-square sm-size-ab-cata"></i>
               </a>
               <a href="https://www.facebook.com/MelodityBlog" class="sm-link">
-                <img src="images/f_g.png" class="sm-size">
+                <i class="fab fa-facebook-square sm-size-ab-cata"></i>
               </a>
               <a href="https://www.instagram.com/keylahopemusic" class="sm-link">
-                <img src="images/in_g.png" class="sm-size">
+                <i class="fab fa-instagram-square sm-size-ab-cata"></i>
               </a>
               <a href="https://www.youtube.com/keylahopemusic" class="sm-link">
-                <img src="images/yt_g.png" class="sm-size">
+                <i class="fab fa-youtube-square sm-size-ab-cata"></i>
               </a>
               <a href="rss.html" class="sm-link">
-                <img src="images/rss_g.png" class="sm-size">
+                <i class="fas fa-rss-square sm-size-ab-cata"></i>
               </a>
             </div>
             <div class="flexone" style="text-align: center;">
               <a href="index.html" class="nolink-logo">
-                <img src="images/logo.PNG" width="400px">
+                <img src="images/logo.PNG" class="logoheight"  alt="Melodity Logo - DIY Musician Blog">
               </a>
             </div>
           </div>
@@ -60,45 +63,69 @@
           </div>
         </div>
       </div>
-      <div class="flexone">
+      <div class="flexone cata-div">
         <!--BODY-->
         <div class="displayflex row" style="justify-content: center; background-color: rgb(248, 248, 248);">
         <div style="margin: 3vh 20vh 10vh 20vh;">
 
           <!--first row-->
-          <h1 style="text-align: center; margin-bottom: 2vh;">CATAGORIES</h1>
-          <div class="displayflex column" style="width: 60vh; justify-content: center;">
+          <h1 class="cata-headers">CATAGORIES</h1>
+          <div class="displayflex column cata-width">
             
             <!--diy-->
-              <button class="collap" style="background-color: rgb(74,70,71);">DIY</button>
+              <button class="collap" id="diy" style="
+              background: url(images/cata-page/cata-diy.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">DIY</button>
               <div class="content">
                 <ul style="margin: 2vh">
-                  <li class="date-font">More Coming Soon!</li>
+                  <li><a href="how-to-find-open-mics.html" class="date-font">How to Find Open Mics</a></li>
+                  <li><a href="find-your-unique-edge.html" class="date-font">How to Find Your Unique Edge</a></li>
+                  
                 </ul>
               </div>
               <!--END CATAGORY-->
               <!--life-->
-              <button class="collap" style="
-              background: url(images/gig1.jpeg); 
+              <button class="collap" id="life" style="
+              background: url(images/cata-page/cata-life.jpeg); 
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: cover;">Life</button>
+                background-size: cover;
+                color: white;
+                ">Life</button>
               <div class="content">
                 <ul style="margin: 2vh">
-                  <li class="date-font">More Coming Soon!</li>
+                  <li><a href="about.html" class="date-font">About Us</a></li>
+                  <li><a href="how-to-find-open-mics.html" class="date-font">How to Find Open Mics</a></li>
+                  <li><a href="find-your-unique-edge.html" class="date-font">How to Find Your Unique Edge</a></li>
                 </ul>
               </div>
               <!--END CATAGORY-->
               <!--gigs-->
-              <button class="collap" style="background-color: rgb(74,70,71);">Gigs</button>
+              <button class="collap" id="gigs" style="
+              background: url(images/cata-page/cata-gig.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">Gigs</button>
               <div class="content">
                 <ul style="margin: 2vh">
-                  <li class="date-font">More Coming Soon!</li>
+                  <li><a href="how-to-find-open-mics.html" class="date-font">How to Find Open Mics</a></li>
                 </ul>
               </div>
               <!--END CATAGORY-->
               <!--recording-->
-              <button class="collap" style="background-color: rgb(121,122,126);">Recording</button>
+              <button class="collap" id="recording" style="
+                background: url(images/cata-page/cata-r.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">Recording</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -106,7 +133,13 @@
               </div>
               <!--END CATAGORY-->
               <!--garageband-->
-              <button class="collap" style="background-color: rgb(74,70,71);">Garageband</button>
+              <button class="collap" id="gb" style="
+              background: url(images/cata-page/cata-gb.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">Garageband</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -114,7 +147,13 @@
               </div>
               <!--END CATAGORY-->
               <!--Review-->
-              <button class="collap" style="background-color: rgb(121,122,126);">Reviews</button>
+              <button class="collap" id="reviews" style="
+              background: url(images/cata-page/cata-rev.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">Reviews</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -125,11 +164,33 @@
             <!--end-->
 
             <!--second row-->
-          <h1 style="text-align: center; margin: 4vh 0vh 2vh 0vh;">ARCHIEVE</h1>
-          <div class="displayflex column" style="width: 60vh; justify-content: center;">
+          <h1 class="cata-headers" style="margin: 4vh 0vh 2vh 0vh;">ARCHIVE</h1>
+          <div class="displayflex column cata-width">
             
-            <!--5-->
-              <button class="collap" style="background-color: rgb(74,70,71);">April</button>
+            <!--4-->
+              <button class="collap" style="
+              background: url(images/cata-page/spr.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">April</button>
+              <div class="content">
+                <ul style="margin: 2vh">
+                  <li><a href="about.html" class="date-font">About Us</a></li>
+                  <li><a href="how-to-find-open-mics.html" class="date-font">How to Find Open Mics</a></li>
+                  <li><a href="find-your-unique-edge.html" class="date-font">How to Find Your Unique Edge</a></li>
+                </ul>
+              </div>
+              <!--END CATAGORY-->
+              <!--5-->
+              <button class="collap" style="
+              background: url(images/cata-page/spr3.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">May</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -137,7 +198,13 @@
               </div>
               <!--END CATAGORY-->
               <!--6-->
-              <button class="collap" style="background-color: rgb(121,122,126);">May</button>
+              <button class="collap" style="
+              background: url(images/cata-page/sum4.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">June</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -145,7 +212,13 @@
               </div>
               <!--END CATAGORY-->
               <!--7-->
-              <button class="collap" style="background-color: rgb(74,70,71);">June</button>
+              <button class="collap" style="
+              background: url(images/cata-page/sum2.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">July</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -153,7 +226,13 @@
               </div>
               <!--END CATAGORY-->
               <!--8-->
-              <button class="collap" style="background-color: rgb(121,122,126);">July</button>
+              <button class="collap" style="
+              background: url(images/cata-page/sum3.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">August</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -161,7 +240,13 @@
               </div>
               <!--END CATAGORY-->
               <!--9-->
-              <button class="collap" style="background-color: rgb(74,70,71);">August</button>
+              <button class="collap" style="
+              background: url(images/cata-page/aut.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">September</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -169,7 +254,13 @@
               </div>
               <!--END CATAGORY-->
               <!--10-->
-              <button class="collap" style="background-color: rgb(121,122,126);">September</button>
+              <button class="collap" style="
+              background: url(images/cata-page/aut2.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">October</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -177,7 +268,13 @@
               </div>
               <!--END CATAGORY-->
               <!--11-->
-              <button class="collap" style="background-color: rgb(74,70,71);">October</button>
+              <button class="collap" style="
+              background: url(images/cata-page/aut1.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">November</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -185,7 +282,13 @@
               </div>
               <!--END CATAGORY-->
               <!--12-->
-              <button class="collap" style="background-color: rgb(121,122,126);">December</button>
+              <button class="collap" style="
+              background: url(images/cata-page/win2.jpeg); 
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                color: white;
+                ">December</button>
               <div class="content">
                 <ul style="margin: 2vh">
                   <li class="date-font">More Coming Soon!</li>
@@ -199,58 +302,62 @@
           </div>
         </div>
       </div>
-      <div class="flexone" style="flex: 1; background-color: pink;">
-        <!--FOOTER-->
-        <div class="displayflex column" style="padding: .5vh 1vh; background-color: rgb(24, 24, 24);">
-          <div class="flexone">
-            <div class="displayflex" style="justify-content: space-between;">
-                
-              <div class="flexone">
-                <a href="contact.html" class="sm-link">
-                  <img src="images/em_g.png" class="sm-size">
-                </a>
-                <a href="https://www.facebook.com/MelodityBlog" class="sm-link">
-                  <img src="images/f_g.png" class="sm-size">
-                </a>
-                <a href="https://www.instagram.com/keylahopemusic" class="sm-link">
-                  <img src="images/in_g.png" class="sm-size">
-                </a>
-                <a href="https://www.youtube.com/keylahopemusic" class="sm-link">
-                  <img src="images/yt_g.png" class="sm-size">
-                </a>
-                <a href="rss.html" class="sm-link">
-                  <img src="images/rss_g.png" class="sm-size">
-                </a>
-              </div>
-              
-              <div class="flexone  textalign">
-                <div>
-                  <a href="index.html">
-                    <img src="images/footer-logo.PNG" style="width: 160px;">
-                  </a>
-                </div>
-                <div>
-                  <p class="footerprivacy" style="margin-top: .5vh">Copyright Melodity 2021</p>
-                </div>
-                <div>
-                  <p class="footerprivacy">Privacy Policy</p>
-                </div>
-              </div>
 
-              <div class="flexone" style="text-align: right;">
-                <a href="index.html" class="footerfont">HOME</a>
-                <a href="about.html" class="footerfont">ABOUT</a>
-                <a href="catagories.html" class="footerfont">CATAGORIES</a>
-                <a href="contact.html" class="footerfont">CONTACT</a>
-                <a href="store.html" class="footerfont">STORE</a>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </div>
     </div>
   </body>
+  
+  <footer>
+    <div class="flexone" style="flex: 1;">
+      <!--FOOTER-->
+      <div class="displayflex column" style="padding: .5vh 1vh; background-color: rgb(24, 24, 24);">
+        <div class="flexone">
+          <div class="displayflex footer-flex">
+              
+            <div class="flexone">
+              <a href="contact.html" class="sm-link-foot">
+                <i class="far fa-envelope sm-footer"></i>
+              </a>
+              <a href="https://www.facebook.com/MelodityBlog" class="sm-link-foot">
+                <i class="fab fa-facebook-f sm-footer"></i>
+              </a>
+              <a href="https://www.instagram.com/keylahopemusic" class="sm-link-foot">
+                <i class="fab fa-instagram sm-footer"></i>
+              </a>
+              <a href="https://www.youtube.com/keylahopemusic" class="sm-link-foot">
+                <i class="fab fa-youtube sm-footer"></i>
+              </a>
+              <a href="rss.html" class="sm-link-foot">
+                <i class="fas fa-rss sm-footer"></i>
+              </a>
+            </div>
+            
+            <div class="flexone textalign">
+              <div>
+                <a href="index.html">
+                  <img src="images/footer-logo.PNG" style="width: 160px;" alt="Melodity Logo - DIY Musician Blog">
+                </a>
+              </div>
+              <div>
+                <p class="footerprivacy" style="margin-top: .5vh">Copyright Melodity 2021</p>
+              </div>
+              <div>
+                <a href="privacypolicy.html"><p class="footerprivacy">Privacy Policy, Terms and Conditions, Disclaimer</p></a>
+              </div>
+            </div>
+  
+            <div class="flexone" style="text-align: right;">
+              <a href="index.html" class="footerfont">HOME</a>
+              <a href="about.html" class="footerfont">ABOUT</a>
+              <a href="catagories.html" class="footerfont">CATAGORIES</a>
+              <a href="contact.html" class="footerfont">CONTACT</a>
+              <a href="store.html" class="footerfont">STORE</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
 </html>
 
 

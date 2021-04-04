@@ -2,13 +2,45 @@
 <rss version="2.0">
 
 <channel>
-  <title>Melodity: DIY Musician Blog</title>
+  <title>Melodity - DIY Musician Blog</title>
   <link>https://www.melodity.com</link>
-  <description>Free DIY Musician tutorials</description>
+  <description>Want to learn how to get paid gigs, write original songs, and make professional recordings at home yourself? Melodity has all the expert tips and tricks you need to become a DIY Musician.</description>
+  
   <item>
-    <title>title</title>
-    <link>link.com</link>
-    <description>desp</description>
+    <title>About Us - Melodity</title>
+    <link>https://www.melodity.com/about.html</link>
+    <description>Melodity is a daily updated DIY Musician blog for musicians of all levels. We provide how-to's, tips, and tricks from real-life experts...</description>
+  </item>
+
+  <item>
+    <title>Catagories - Melodity</title>
+    <link>https://www.melodity.com/catagories.html</link>
+    <description>Melodity provides a variety of topics on writing original songs, creating instrumentals in GarageBand, getting paid gigs, real-life stories, and other...</description>
+  </item>
+
+  <item>
+    <title>Contact Us - Melodity</title>
+    <link>https://www.melodity.com/contact.html</link>
+    <description>Want to sponsor us? Is there content you want to see? Do you have ideas or suggestions? Contact us now! Melodity has all the expert tips and tricks you need to become a DIY Musician.</description>
+  </item>
+
+  <item>
+    <title>Privacy Policy, Terms and Conditions, Disclaimer - Melodity</title>
+    <link>https://www.melodity.com/privacypolicy.html</link>
+    <description>Melodity privacy policy, terms and conditions, and diclaimer. By using Melodity.com, you consent to...</description>
+  </item>
+
+  <item>
+    <title>Store - Melodity</title>
+    <link>https://www.melodity.com/store.html</link>
+    <description>Expert ebooks on how to get paid gigs without an agent, How to make your own presskit and take professional photos at home, DIY Musician how-to guides...</description>
+  </item>
+
+  <!--POSTS-->
+  <item>
+    <title>$</title>
+    <link>https://www.melodity.com/$.html</link>
+    <description>$</description>
   </item>
 
 </channel>

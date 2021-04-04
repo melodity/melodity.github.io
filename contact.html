@@ -7,11 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/e06d6ed078.js" crossorigin="anonymous"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="style.css">
+    <title>Contact Us - Melodity</title>
+    <meta name="description" content="Want to sponsor us? Is there content you want to see? Do you have ideas or suggestions? Contact us now! Melodity has all the expert tips and tricks you need to become a DIY Musician.">
   </head>
   <body>
     <form 
@@ -21,18 +22,18 @@
     <!--HEADER-->
     <header class="contact-main-cover" style="padding: 0vh 2vh 0px 2vh;">
 
-      <div class="displayflex column" style="height: 100vh;">
+      <div class="displayflex column" style="height: auto;">
 
         <!--nav header-->
         <div class="flexone">
-          <div class="displayflex row" style="justify-content: space-evenly; padding-top: 1vh;">
+          <div class="displayflex contact-nav">
               <div class="flexone" style="color: white;">
                 <div class="displayflex">
-                <a href="index.html" class="index-nav">home</a>
-                <a href="about.html" class="index-nav">about</a>
-                <a href="catagories.html" class="index-nav">catagories</a>
-                <a href="contact.html" class="index-nav">contact</a>
-                <a href="store.html" class="index-nav">store</a>
+                <a href="index.html" class="contact-nav-link">home</a>
+                <a href="about.html" class="contact-nav-link">about</a>
+                <a href="catagories.html" class="contact-nav-link">catagories</a>
+                <a href="contact.html" class="contact-nav-link">contact</a>
+                <a href="store.html" class="contact-nav-link">store</a>
               </div>
             </div>
             <!--footer - header-->
@@ -46,21 +47,23 @@
               </div>
             </div>
             <div class="flexone" style="text-align: end;">
+              
               <a href="contact.html" class="sm-link">
-                <img src="images/em_g.png" class="sm-size">
+                <i class="far fa-envelope sm-footer"></i>
               </a>
               <a href="https://www.facebook.com/MelodityBlog" class="sm-link">
-                <img src="images/f_g.png" class="sm-size">
+                <i class="fab fa-facebook-f sm-footer"></i>
               </a>
               <a href="https://www.instagram.com/keylahopemusic" class="sm-link">
-                <img src="images/in_g.png" class="sm-size">
+                <i class="fab fa-instagram sm-footer"></i>
               </a>
               <a href="https://www.youtube.com/keylahopemusic" class="sm-link">
-                <img src="images/yt_g.png" class="sm-size">
+                <i class="fab fa-youtube sm-footer"></i>
               </a>
-              <a href="rss.html" class="sm-link">
-                <img src="images/rss_g.png" class="sm-size">
+              <a href="rss.xml" class="sm-link">
+                <i class="fas fa-rss sm-footer"></i>
               </a>
+              
             </div>
           </div>
         </div>
@@ -68,7 +71,7 @@
       
         <!--BODY-->
         
-        <div class="displayflex column" style="background-color: rgba(18, 138, 185, 0.541); width: 60%; height: min-content; align-self: center; margin: 3vh;">
+        <div class="displayflex column contact-body">
           
           <div id="stuff" style="padding: 3vh;">
 
@@ -115,40 +118,74 @@
               <textarea style="padding: 1vh 0vh 0vh 1vh; height: 20vh; resize: none;" class="full contact-message-text" id="message" name="message" placeholder="Your message..." row="10" cols="50" required></textarea>
             </div>
             <div>
-              <label for="verification" class="contact-form-text">Verification:</label>
+              <label class="contact-form-text">Consent: </label>
               <div>
-                <div class="g-recaptcha" data-sitekey="6LcQTJEaAAAAAAim3jue-obWrKAINJ-T4lkPrF6Y" data-callback="verifyCaptcha"></div>
-                <div id="g-recaptcha-error"></div>
+                <div><input type="checkbox" name="consent" required></div>
+                <p style="color: white" >By submitting this form, you agree that Melodity.com is allowed to contact you regarding your form submittion. We respect your privacy and will never sell your information.</p>
               </div>
             </div>
             <div class="contact-form-line"></div>
               <div style="margin-top: 2vh;">
                   <button class="contact-submit" type="submit" name="submit" value="Submit">Submit Form</button>
               </div>
-            
           </div>
         </div>
-      
-
-
-
       </div>
     </header>
   </form>
   </body>
+  <footer>
+    <div class="flexone" style="flex: 1;">
+      <!--FOOTER-->
+      <div class="displayflex column" style="padding: .5vh 1vh; background-color: rgb(24, 24, 24);">
+        <div class="flexone">
+          <div class="displayflex footer-flex">
+              
+            <div class="flexone">
+              <a href="contact.html" class="sm-link-foot">
+                <i class="far fa-envelope sm-footer"></i>
+              </a>
+              <a href="https://www.facebook.com/MelodityBlog" class="sm-link-foot">
+                <i class="fab fa-facebook-f sm-footer"></i>
+              </a>
+              <a href="https://www.instagram.com/keylahopemusic" class="sm-link-foot">
+                <i class="fab fa-instagram sm-footer"></i>
+              </a>
+              <a href="https://www.youtube.com/keylahopemusic" class="sm-link-foot">
+                <i class="fab fa-youtube sm-footer"></i>
+              </a>
+              <a href="rss.html" class="sm-link-foot">
+                <i class="fas fa-rss sm-footer"></i>
+              </a>
+            </div>
+            
+            <div class="flexone textalign">
+              <div>
+                <a href="index.html">
+                  <img src="images/footer-logo.PNG" style="width: 160px;" alt="Melodity Logo - DIY Musician Blog">
+                </a>
+              </div>
+              <div>
+                <p class="footerprivacy" style="margin-top: .5vh">Copyright Melodity 2021</p>
+              </div>
+              <div>
+                <a href="privacypolicy.html"><p class="footerprivacy">Privacy Policy, Terms and Conditions, Disclaimer</p></a>
+              </div>
+            </div>
+  
+            <div class="flexone" style="text-align: right;">
+              <a href="index.html" class="footerfont">HOME</a>
+              <a href="about.html" class="footerfont">ABOUT</a>
+              <a href="catagories.html" class="footerfont">CATAGORIES</a>
+              <a href="contact.html" class="footerfont">CONTACT</a>
+              <a href="store.html" class="footerfont">STORE</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
 </html>
 
 
-<script>
-  function submitUserForm() {
-      var response = grecaptcha.getResponse();
-      if(response.length == 0) {
-          document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
-          return false;
-      }
-      return true;
-  }
-  function verifyCaptcha() {
-      document.getElementById('g-recaptcha-error').innerHTML = '';
-  }
-  </script>
