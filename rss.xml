@@ -36,11 +36,17 @@
     <description>Expert ebooks on how to get paid gigs without an agent, How to make your own presskit and take professional photos at home, DIY Musician how-to guides...</description>
   </item>
 
-  <!--POSTS-->
   <item>
-    <title>$</title>
-    <link>https://www.melodity.com/$.html</link>
-    <description>$</description>
+    <title>How to Find Your Unique Edge - Melodity</title>
+    <link>https://www.melodity.com/find-your-unique-edge.html</link>
+    <description>Do your covers sound like every other musician? Does it feel like something is just missing, like the spark in your cover isn’t lighting up? Maybe it’s time to try and find your unique edge.
+    This guide is going to show you how to experiment with different genres and styles of music/singing to find your sweet spot, then incorporate them into your songs.</description>
+  </item>
+  
+  <item>
+    <title>How to Find Local Open Mics - Melodity</title>
+    <link>https://www.melodity.com/how-to-find-open-mics.html</link>
+    <description>It is not easy to get up in front of a crowd and sing, but this how-to guide is going to provide you with everything you need to help you be a success. From finding the right type of open mic for your genre and skill level to giving you all the pro tips you might not have thought of. After all, no one wants to be a little teen popstar singing a love song in a biker bar.</description>
   </item>
 
 </channel>
